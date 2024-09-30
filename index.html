@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verificar Palíndromo</title>
+</head>
+<body>
+<h1 align="center">Verificar si una palabra es un palindromo</h1>
+<hr align="center" width="80%" size="5">
+<form action="ejepractica2.php" method="GET">
+    <label>Introduce una palabra:</label>
+    <input type="text" name="palabra" placeholder="Palabra" required><br><br>
+    <input type="submit" value="Verificar">
+</form>
+    <h1 class="text-center">2)</h1>
+    <hr>
+    <form action="ejepractica2.php" method="GET">
+        <div class="mb-3">
+            <label for="cadena1" class="form-label">Introduce la primera cadena:</label>
+            <input type="text" id="cadena1" name="cadena1" placeholder="Primera cadena" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="cadena2" class="form-label">Introduce la segunda cadena:</label>
+            <input type="text" id="cadena2" name="cadena2" placeholder="Segunda cadena" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Procesar</button>
+    </form>
+
+    <h2>3. Contar cuantas veces se repite una letra</h2>
+    
+    <form action="ejepractica2.php" method="GET">
+        <label>Introduce una frase:</label><br>
+        <input type="text" name="frase" placeholder="Escribe una frase"><br><br>
+        
+        <label>Introduce una letra:</label><br>
+        <input type="text" name="letra" placeholder="Escribe una letra" maxlength="1"><br><br>
+        
+        <input type="submit" value="Contar">
+    </form>
+
+    <h2>4. introduce el nombre, apellido paterno, apellido
+        materno, la fecha de nacimiento y su carnet</h2>
+    <form action="ejepractica2.php" method="GET">
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre" placeholder="Nombre"><br><br>
+        
+        <label>Apellido Paterno:</label><br>
+        <input type="text" name="apellidoP" placeholder="Apellido Paterno"><br><br>
+        
+        <label>Apellido Materno:</label><br>
+        <input type="text" name="apellidoM" placeholder="Apellido Materno"><br><br>
+        
+        <label>Fecha de Nacimiento (DD/MM/AA):</label><br>
+        <input type="text" name="fecha" placeholder="12/06/99"><br><br>
+        
+        <label>Carnet:</label><br>
+        <input type="text" name="carnet" placeholder="Carnet"><br><br>
+        
+        <input type="submit" value="Generar Código">
+    </form> 
+    <h1>7. Contar Palabras en una Frase</h1>
+    
+    <form action="ejepractica2.php" method="GET">
+        <label>Introduce una frase:</label><br>
+        <input type="text" name="frase" placeholder="Escribe la frase"><br><br>
+        
+        <label>Introduce la palabra a buscar:</label><br>
+        <input type="text" name="palabra" placeholder="Escribe la palabra"><br><br>
+        
+        <input type="submit" value="Contar">
+    </form>
+</form>
+</body>
+</html>
